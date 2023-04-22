@@ -16,9 +16,9 @@
 #define BLYNK_PRINT Serial
 LiquidCrystal_I2C lcd(0x27,20,4);
 
-char auth[] = "lFIuB0T7RorE7rthyQceXEi1dJ_oWm-0"; 
-char ssid[] = "RGRG";  
-char pass[] = "89831617";
+char auth[] = "XXXXXXXXX"; 
+char ssid[] = "XXXXXXXXX";  
+char pass[] = "XXXXXXXXX";
 
 DHT dht(18, DHT22); //(sensor pin,sensor type)
 Adafruit_SI1145 GY1145 = Adafruit_SI1145();
